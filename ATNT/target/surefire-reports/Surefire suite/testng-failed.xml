@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testSearch.SearchTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="getInit"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="testSearch"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- testSearch.SearchTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

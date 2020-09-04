@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: testSearch.SearchTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 0.502 s <<< FAILURE! - in testSearch.SearchTest
+testSearch.SearchTest.setUp[false, false, windows, 10, chrome-options, 34, https://www.google.com](0)  Time elapsed: 0.414 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/mobassaratabassum/IdeaProjects/MentoringAutomationFramework_Tasmi/ATNT/../Generic/BrowserDriver/windows/chromedriver.exe
+
+testSearch.SearchTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
